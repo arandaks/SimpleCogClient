@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "simple-cog-client"
+version = "0.1.2"
+description = ""
+authors = ["Carlos Aranda <carlos.aranda@ksms.mx>"]
+readme = "README.md"
+packages = [{include = "simple_cog_client"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pillow = "^9.4.0"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
